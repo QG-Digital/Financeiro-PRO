@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     // --- CONFIGURAÇÕES ---
-    const seuNumeroWhatsapp = "5543996117320"; 
+    const seuNumeroWhatsapp = "43991862510"; 
 
     // --- SELEÇÃO DE ELEMENTOS ---
     const ctaButtons = document.querySelectorAll('.cta-button');
