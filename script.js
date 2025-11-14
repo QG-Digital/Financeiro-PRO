@@ -2,10 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- CONFIGURAÇÕES ---
     // Lista de números para rodízio. Coloque os números das suas vendedoras aqui.
-    // Formato: Código do país (55) + DDD + Número (tudo junto)
     const numerosVendedoras = [
-        "5543991862510", // Vendedora 1 (Troque pelo número real)
-        "554599518500"  // Vendedora 5 (Troque pelo número real)
+        "5543991862510", 
+        "554599518500"  
     ];
 
     // --- FUNÇÃO PARA SORTEAR VENDEDORA ---
