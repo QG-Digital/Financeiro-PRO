@@ -133,12 +133,12 @@ document.addEventListener('DOMContentLoaded', () => {
             // A animação é acionada pelo CSS. Aqui, acionamos o download.
             // Verificamos se foi marcado para não acionar o download ao desmarcar.
             if (downloadInput.checked) {
-                const downloadUrl = 'https://github.com/QG-Digital/Financeiro-PRO/releases/download/1.0.0/FinanceiroPRO_Instalador_v1.0.0.exe';
+                const downloadUrl = 'FinanceiroPRO_Instalador_v1';
                 
                 // Cria um link temporário para iniciar o download
                 const link = document.createElement('a');
                 link.href = downloadUrl;
-                link.setAttribute('download', 'FinanceiroPRO_Instalador_v1.0.0.exe');
+                link.setAttribute('download', 'https://github.com/QG-Digital/Financeiro-PRO/releases/download/1.0.0/FinanceiroPRO_Instalador_v1.0.1.exe');
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
