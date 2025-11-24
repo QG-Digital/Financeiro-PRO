@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- CONFIGURAÇÕES ---
     // Lista de números para rodízio. Coloque os números das suas vendedoras aqui.
     const numerosVendedoras = [
-        "5543991862510", 
+        "554399728502", 
         "554599518500"  
     ];
 
